@@ -1,6 +1,5 @@
 %global __provides_exclude_from ^%{_datadir}/%{name}/lib/.*$
-%global __requires_exclude ^lib(dconf|flutter-embedder|maliit-glib|.+_platform_plugin)\\.so.*$
-%global __requires_exclude ^lib(yuv|ZXing|jpeg)\\.so.*$
+%global __requires_exclude ^lib(yuv|ZXing|jpeg|dconf|flutter-embedder|maliit-glib|.+_platform_plugin)\\.so.*$
 
 Name: com.example.flutter_test_camera
 Summary: A new Flutter project.
